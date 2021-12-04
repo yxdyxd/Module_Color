@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YXDModule_color_Example' do
+  pod 'YXDModule_color', :path => '../'
+
+  target 'YXDModule_color_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
