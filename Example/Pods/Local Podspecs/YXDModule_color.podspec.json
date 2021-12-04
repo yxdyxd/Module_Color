@@ -1,0 +1,22 @@
+{
+  "name": "YXDModule_color",
+  "version": "0.1.0",
+  "summary": "A short description of YXDModule_color.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YangXuDong/YXDModule_color",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YangXuDong": "240933281@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/YangXuDong/YXDModule_color.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YXDModule_color/Classes/**/*"
+}

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A02657322C6B011310B8F58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4A02657322C6B011310B8F58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YXDModule_color_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXDModule_color_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8760137AE99E9EB383813E02 /* Pods-YXDModule_color_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXDModule_color_Example.release.xcconfig"; path = "Target Support Files/Pods-YXDModule_color_Example/Pods-YXDModule_color_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A2035778D8BD6A55D455DFFA /* Pods-YXDModule_color_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXDModule_color_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YXDModule_color_Tests/Pods-YXDModule_color_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AAA0FE0D914A7DE149E5881D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E6F7F708B756F92D7C4F6F36 /* YXDModule_color.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YXDModule_color.podspec; path = ../YXDModule_color.podspec; sourceTree = "<group>"; };
+		AAA0FE0D914A7DE149E5881D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E6F7F708B756F92D7C4F6F36 /* YXDModule_color.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YXDModule_color.podspec; path = ../YXDModule_color.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				A2035778D8BD6A55D455DFFA /* Pods-YXDModule_color_Tests.debug.xcconfig */,
 				7CCDBDD88284F06606FC01DB /* Pods-YXDModule_color_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

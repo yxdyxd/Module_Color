@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YXDModule_color (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YXDModule_color (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YXDModule_color:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YXDModule_color: 0af8ddc8cf733172945df324fea440d50b479dd3
+
+PODFILE CHECKSUM: e8dee6e8b4b840b7a5c0a8eb6c573da4e45e7900
+
+COCOAPODS: 1.11.2

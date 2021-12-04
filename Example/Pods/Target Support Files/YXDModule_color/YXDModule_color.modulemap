@@ -1,0 +1,6 @@
+framework module YXDModule_color {
+  umbrella header "YXDModule_color-umbrella.h"
+
+  export *
+  module * { export * }
+}
